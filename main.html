@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jasmin Make-up Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #fddde6, #d0e6f6);
+      color: #333;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      font-weight: 600;
+      color: #5e4486;
+      margin-bottom: 20px;
+    }
+
+    #heroImage {
+      width: 650px;
+      max-width: 90vw;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .hero .tagline {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    .location {
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+
+    .services-section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px 30px;
+    }
+
+    .services-section h2 {
+      text-align: center;
+      font-size: 2.2em;
+      color: #4c3f91;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+    .service {
+      background: #ffffffcc;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .service img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 8px;
+      background-color: #ddd;
+    }
+
+    .service-name {
+      margin-top: 10px;
+      font-weight: 600;
+      color: #4c3f91;
+    }
+
+    .contact {
+      font-size: 1em;
+      color: #444;
+      background: #e5f1fb;
+      padding: 20px;
+      text-align: center;
+      border-top: 2px solid #ccc;
+      margin-top: 50px;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    .contact a {
+      color: #375da7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Jasmin Make-up Studio & Training Center</h1>
+    <img id="heroImage" src="https://i.postimg.cc/xd1jdb7h/1st-photo.jpg" alt="Jasmin Studio">
+    <p class="tagline">Where elegance meets confidence.</p>
+    <div class="location">📍 Bharatpur-11, Naya Kiran Tol<br>👩 Proprietor: Bimala Poudel</div>
+  </div>
+
+  <div class="services-section">
+    <h2>📋 Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <img src="https://i.postimg.cc/k5WTWyCt/download.jpg" alt="Bridal Makeup">
+        <div class="service-name">Bridal Makeup</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/L4Wj61Kd/russian.jpg" alt="Makeup">
+        <div class="service-name">Makeup</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/PJXVXvBv/download-1.jpg" alt="Manicure & Pedicure">
+        <div class="service-name">Manicure & Pedicure</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/VL54Kw1w/facial.jpg" alt="Facials">
+        <div class="service-name">Facials</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/9F4tGBtF/haircut.jpg" alt="Advanced Haircut">
+        <div class="service-name">Advanced Haircut</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/cJGm1831/hair-straight.jpg" alt="Hair Straightening">
+        <div class="service-name">Hair Straight</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/RZ6sZBbd/download-2.jpg" alt="Keratin">
+        <div class="service-name">Keratin</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/CMCVwjf5/threading.jpg" alt="Threading">
+        <div class="service-name">Threading</div>
+      </div>
+      <div class="service">
+        <img src="https://i.postimg.cc/wBzXYYK7/manymore.jpg" alt="More Services">
+        <div class="service-name">And Many More</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <p>📞 Phone: <a href="tel:9867832202">9867832202</a></p>
+    <p>📧 Email: <a href="mailto:kailashpoudel0@gmail.com">kailashpoudel0@gmail.com</a></p>
+    <p>📸 Instagram: <a href="https://instagram.com/kailashpoudel69" target="_blank">@kailashpoudel69</a></p>
+    <p>📘 Book Now: <a href="https://m.me/jasminmakeupstudioandtrainingcentre" target="_blank">Message Jasmin Studio on Facebook</a></p>
+    <p>🗺️ Location: <a href="https://maps.app.goo.gl/ET8WsBKokvgoHrXL8" target="_blank">View on Google Maps</a></p>
+  </div>
+
+  <script>
+    const images = [
+      "https://i.postimg.cc/xd1jdb7h/1st-photo.jpg",
+      "https://i.postimg.cc/hjHKMZjR/final-wala.jpg",
+      "https://i.postimg.cc/pd3NthtD/ops.jpg"
+    ];
+    let current = 0;
+    const heroImg = document.getElementById("heroImage");
+    setInterval(() => {
+      current = (current + 1) % images.length;
+      heroImg.src = images[current];
+    }, 2000);
+  </script>
+
+</body>
+</html>
